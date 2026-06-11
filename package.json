@@ -1,0 +1,17 @@
+{
+  "name": "@pick-social/feed-algo",
+  "version": "0.1.0",
+  "description": "The open-source feed ranking algorithm powering pick.social",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
