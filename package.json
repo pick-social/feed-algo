@@ -6,10 +6,13 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "node --test"
+    "test": "node --test",
+    "prepare": "tsc"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
